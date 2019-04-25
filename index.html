@@ -1,0 +1,40 @@
+<html onmousedown="rightclick(event)">
+  <style>
+  header {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+  body {
+    background-image: url("back.png");
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
+	background-position: center bottom;
+  }
+  * { margin: 0; padding: 0;}
+
+  body, html { height:100%; }
+  #canvas{
+    display:block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  #canvascss {
+  	width: 100%;
+	height: 50%;
+	bottom: 0;	
+  }
+</style>
+  <header>
+	<title>Dorset Tractor</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </header>
+  <body>
+  	<div id="canvascss">
+    <canvas id="canvas">
+      <h1>Hello</h1>
+    </canvas>
+	</div>
+    <script src="index.js"></script>
+  </body>
+</html>
